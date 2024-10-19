@@ -1,4 +1,5 @@
 import { Card, Col, Button } from "react-bootstrap";
+import standar from '../../assets/suiteStandar.png'
 
 const Habitaciones = () => {
   return (
@@ -7,7 +8,7 @@ const Habitaciones = () => {
         <Card className="h-100">
           <div>
             <img
-              src="https://lh3.googleusercontent.com/gg/ACM6BItch7VclwRxzS8lC2mNB7NnvcRQGgBDtEt7qoE8R9vuWnAAya1WLIrzORnDNvLHgV8-aD_XQiBBT6sdUsHK2ipEa7q2ARSHQtwRjpT3WzFONOA5F3ta4_vzfIqtOFIH0caMnKmAg30ZHKG8tAapEvu_r90F5jRPMXId_86lKudeu7rtVXQ=s1024"
+              src={standar}
               alt="Suite Standar"
               className="w-100"
             />
