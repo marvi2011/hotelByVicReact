@@ -10,14 +10,15 @@ function App() {
   <section>
   <NavMenu></NavMenu>
   <h1 className='text-center mt-3 display-3'>HOTEL REFUGIO DE LAS NUBES</h1>
+  <h2 className='text-center mt-3 display-4'>Nuestras Habitaciones</h2>
   <Container className='mainSection mt-5'>
-    <Row className='display-flex'>
+    <Row>
   <Habitaciones></Habitaciones>
   <Habitaciones></Habitaciones>
   <Habitaciones></Habitaciones>
   </Row>
   </Container>
-  <Footer></Footer>
+<Footer></Footer>
   </section>
   );
 };
