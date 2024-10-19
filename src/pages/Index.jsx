@@ -1,5 +1,6 @@
 import { Container, Row } from "react-bootstrap";
 import Habitaciones from "./habitaciones/Habitaciones";
+import Servicios from "./habitaciones/Servicios";
 
 
 const Index = () => {
@@ -12,8 +13,9 @@ const Index = () => {
                     <Habitaciones></Habitaciones>
                     <Habitaciones></Habitaciones>
                    <Habitaciones></Habitaciones>
-                </Row>
+                  </Row>
             </Container>
+            <Servicios></Servicios>
         </section>
     );
 };
