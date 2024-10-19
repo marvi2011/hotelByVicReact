@@ -10,8 +10,8 @@ const Index = () => {
             <Container className="mainSection mt-5">
                 <Row>
                     <Habitaciones></Habitaciones>
-                    
-                   
+                    <Habitaciones></Habitaciones>
+                   <Habitaciones></Habitaciones>
                 </Row>
             </Container>
         </section>
