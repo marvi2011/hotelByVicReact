@@ -7,7 +7,7 @@ const NavMenu = () => {
     <section>
       <Navbar expand="lg" className="bg-body-success container-fluid">
         <Container>
-          <img src="logo-hotel" alt="logo del hotel"></img>
+          
           <Navbar.Brand href="#home">Refugio de las Nubes</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
