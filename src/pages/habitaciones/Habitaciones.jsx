@@ -3,7 +3,7 @@ import standar from '../../assets/suiteStandar.png'
 
 const Habitaciones = () => {
   return (
-    <div>
+    
       <Col md={4} lg={3} className="mb-5">
         <Card className="h-100">
           <div>
@@ -31,7 +31,7 @@ const Habitaciones = () => {
           </Card.Footer>
         </Card>
       </Col>
-    </div>
+    
   );
 };
 
