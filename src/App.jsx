@@ -5,14 +5,16 @@ import Footer from "./Components/common/Footer";
 import Administrador from "./pages/Administrador";
 import Habitaciones from "./pages/habitaciones/Habitaciones";
 import ItemHabitacion from "./pages/habitaciones/ItemHabitacion";
+import ItemHabiJunior from "./pages/habitaciones/ItemHabiJunior";
 
 function App() {
   return (
     <section>
-     <NavMenu></NavMenu>
-  {/*<Administrador></Administrador>*/}
-{/*<Index></Index>*/}
-<ItemHabitacion></ItemHabitacion>
+      <NavMenu></NavMenu>
+      {/*<Administrador></Administrador>*/}
+      {/*<Index></Index>*/}
+      {/*<ItemHabitacion></ItemHabitacion>*/}
+      <ItemHabiJunior></ItemHabiJunior>
       <Footer></Footer>
     </section>
   );
