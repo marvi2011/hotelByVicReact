@@ -6,18 +6,19 @@ import Administrador from "./pages/Administrador";
 import Habitaciones from "./pages/habitaciones/Habitaciones";
 import ItemHabitacion from "./pages/habitaciones/ItemHabitacion";
 import ItemHabiJunior from "./pages/habitaciones/ItemHabiJunior";
-import ItemHabiPremiun from './pages/habitaciones/ItemHabiPremiun';
-import FormularioHabitacion from './pages/habitaciones/FormularioHabitacion'
+import ItemHabiPremiun from "./pages/habitaciones/ItemHabiPremiun";
+import FormularioHabitacion from "./pages/habitaciones/FormularioHabitacion";
 
 function App() {
   return (
     <section>
       <NavMenu></NavMenu>
-      {/*<Administrador></Administrador>*/}
-      {/*<Index></Index>*/}
-      {/*<ItemHabitacion></ItemHabitacion>*/}
-      {/*<ItemHabiJunior></ItemHabiJunior>*/}
-      {/*<ItemHabiPremiun></ItemHabiPremiun>*/}
+      <Index></Index>
+      <Habitaciones></Habitaciones>
+      <ItemHabitacion></ItemHabitacion>
+      <ItemHabiJunior></ItemHabiJunior>
+      <ItemHabiPremiun></ItemHabiPremiun>
+      <Administrador></Administrador>
       <FormularioHabitacion></FormularioHabitacion>
       <Footer></Footer>
     </section>

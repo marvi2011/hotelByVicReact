@@ -1,6 +1,6 @@
 import { Container, Row } from "react-bootstrap";
 import Habitaciones from "./habitaciones/Habitaciones";
-import Servicios from "./habitaciones/Servicios";
+
 
 
 const Index = () => {
