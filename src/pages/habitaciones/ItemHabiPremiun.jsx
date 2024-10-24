@@ -9,7 +9,7 @@ import bañoPremiun from "../../assets/bañoPremiun.jpeg";
 
 const ItemHabiPremiun = () => {
   return (
-    <section className="container mainSection">
+    <body className="container mainSection">
       <div className="d-flex justify-content-between align-items-center mt-5 container-fluid bg-info-subtle text-center py-5">
         <h1 className="display-4">Suite Premiun</h1>
       </div>
@@ -56,7 +56,7 @@ const ItemHabiPremiun = () => {
       <Button type="submit" className="mt-5" variant="primary">
         Reserva ahora
       </Button>
-    </section>
+    </body>
   );
 };
 

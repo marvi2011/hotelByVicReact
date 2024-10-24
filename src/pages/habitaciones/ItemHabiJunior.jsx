@@ -8,7 +8,7 @@ import vistaPiscina2 from "../../assets/vistaPiscina2.png";
 import suiteJunior from "../../assets/suiteJunior.png";
 const ItemHabiJunior = () => {
   return (
-    <section className="container mainSection">
+    <body className="container mainSection">
       <div className="d-flex justify-content-between align-items-center mt-5 container-fluid bg-info-subtle text-center py-5">
         <h1 className="display-4">Suite Junior</h1>
       </div>
@@ -56,7 +56,7 @@ const ItemHabiJunior = () => {
       <Button type="submit" className="mt-5" variant="primary">
         Reserva ahora
       </Button>
-    </section>
+    </body>
   );
 };
 
