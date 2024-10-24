@@ -6,7 +6,8 @@ import Administrador from "./pages/Administrador";
 import Habitaciones from "./pages/habitaciones/Habitaciones";
 import ItemHabitacion from "./pages/habitaciones/ItemHabitacion";
 import ItemHabiJunior from "./pages/habitaciones/ItemHabiJunior";
-import ItemHabiPremiun from './pages/habitaciones/ItemHabiPremiun'
+import ItemHabiPremiun from './pages/habitaciones/ItemHabiPremiun';
+import FormularioHabitacion from './pages/habitaciones/FormularioHabitacion'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/*<Index></Index>*/}
       {/*<ItemHabitacion></ItemHabitacion>*/}
       {/*<ItemHabiJunior></ItemHabiJunior>*/}
-      <ItemHabiPremiun></ItemHabiPremiun>
+      {/*<ItemHabiPremiun></ItemHabiPremiun>*/}
+      <FormularioHabitacion></FormularioHabitacion>
       <Footer></Footer>
     </section>
   );
