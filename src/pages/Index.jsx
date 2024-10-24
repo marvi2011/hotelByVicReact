@@ -6,9 +6,9 @@ import Servicios from "./habitaciones/Servicios";
 const Index = () => {
     return (
         <section>
-            <Container className="mainSection mt-5">
+            <Container className="mainSection mt-5 ">
             <h1 className="display-3 text-center">Hotel Refugio de las Nubes</h1>
-            <h2 className="display-5 text-center">Nuestras Habitaciones</h2>
+            <h2 className="display-5 text-center ">Nuestras Habitaciones</h2>
             
                 <Row>
                     <Habitaciones></Habitaciones>
@@ -17,7 +17,7 @@ const Index = () => {
                    <Habitaciones></Habitaciones>
                   </Row>
             </Container>
-            <Servicios></Servicios>
+            
         </section>
     );
 };

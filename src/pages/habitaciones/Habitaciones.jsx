@@ -1,9 +1,9 @@
 import { Card, Col, Button } from "react-bootstrap";
-import standar from '../../assets/suiteStandar.png'
+import standar from '../../assets/starPremiun2.png'
 
 const Habitaciones = () => {
   return (
-    
+    <>
       <Col md={4} lg={3} className="mb-5">
         <Card className="h-100">
           <div>
@@ -30,8 +30,10 @@ const Habitaciones = () => {
             </Button>
           </Card.Footer>
         </Card>
+        
       </Col>
-    
+      
+      </>
   );
 };
 
