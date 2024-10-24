@@ -6,6 +6,7 @@ import Administrador from "./pages/Administrador";
 import Habitaciones from "./pages/habitaciones/Habitaciones";
 import ItemHabitacion from "./pages/habitaciones/ItemHabitacion";
 import ItemHabiJunior from "./pages/habitaciones/ItemHabiJunior";
+import ItemHabiPremiun from './pages/habitaciones/ItemHabiPremiun'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/*<Administrador></Administrador>*/}
       {/*<Index></Index>*/}
       {/*<ItemHabitacion></ItemHabitacion>*/}
-      <ItemHabiJunior></ItemHabiJunior>
+      {/*<ItemHabiJunior></ItemHabiJunior>*/}
+      <ItemHabiPremiun></ItemHabiPremiun>
       <Footer></Footer>
     </section>
   );
