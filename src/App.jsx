@@ -1,27 +1,29 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavMenu from "./Components/common/NavMenu";
 import Index from "./pages/Index";
-import Footer from "./Components/common/Footer";
 import Administrador from "./pages/Administrador";
 import Habitaciones from "./pages/habitaciones/Habitaciones";
 import ItemHabitacion from "./pages/habitaciones/ItemHabitacion";
 import ItemHabiJunior from "./pages/habitaciones/ItemHabiJunior";
 import ItemHabiPremiun from "./pages/habitaciones/ItemHabiPremiun";
 import FormularioHabitacion from "./pages/habitaciones/FormularioHabitacion";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <section>
-      <NavMenu></NavMenu>
-      <Index></Index>
-      <Habitaciones></Habitaciones>
-      <ItemHabitacion></ItemHabitacion>
-      <ItemHabiJunior></ItemHabiJunior>
-      <ItemHabiPremiun></ItemHabiPremiun>
-      <Administrador></Administrador>
-      <FormularioHabitacion></FormularioHabitacion>
-      <Footer></Footer>
-    </section>
+   <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Index></Index>}></Route>
+    <Route path="/administrador" element={<Administrador></Administrador>}></Route>
+    <Route path="/administrador/crearHabitacion" element={<FormularioHabitacion></FormularioHabitacion>}></Route>
+    <Route path="/administrador/editarHabitacion"element={<FormularioHabitacion></FormularioHabitacion>}></Route>
+    <Route path="/administrador/eliminarHabitacion"element={<FormularioHabitacion></FormularioHabitacion>}></Route>
+    <Route path="/inicio/catalogoHabitaciones" element={<Habitaciones></Habitaciones>}></Route>
+
+
+   </Routes>
+   </BrowserRouter>
+   
   );
 }
 
