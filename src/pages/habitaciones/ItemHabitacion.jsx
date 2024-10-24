@@ -50,7 +50,7 @@ const ItemHabitacion = () => {
         <ListGroup.Item>
           Conexión de Wifi, escritorio ergonómico para trabajar con comodidad
         </ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+       
       </ListGroup>
       <Button type="submit" className="mt-5" variant="primary">Reserva ahora</Button>
     </section>
